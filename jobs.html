@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaJam Coffee Job Application</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <!-- common information for every page -->
+    <!-- start -->
+    <!-- same wrapper for every page -->
+    <div id="wrapper">
+        <header>
+            <h1>JavaJam Coffee House</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="music.html">Music</a></li>
+                <li><a href="jobs.html">Jobs</a></li>
+            </ul>
+        </nav>
+        <!-- end -->
+
+        <main>
+            <!-- i used all information as given on JavaJam site -->
+            <h2 style=" margin-top: 0px; padding-top: 10px;">Jobs at JavaJam</h2>
+
+            <p>
+                Want to work at JavaJam? Fill out the form below to start your
+                application.
+                <br />Required fields are marked with an asterisk(*).
+            </p>
+
+            <!-- a form example that given on site -->
+            <form>
+                <label for="name"> * Name:</label>
+                <!-- required is used for validation -->
+                <input type="text" name="name" id="name" required />
+                <label for="E-Mail"> * E-mail:</label><input type="email" name="r-mail" id="E-Mail" required />
+                <label for="Experience"> * Experience:</label><textarea id="Experience" name="Experience" cols="21"
+                    rows="2" required></textarea>
+
+                <input style=" margin-left: 128px;" type="submit" value="Apply Now" />
+            </form>
+        </main>
+
+        <footer>
+            <p>
+                Copyright &copy; 2016 JavaJam Coffee House <br />
+
+                <!-- my conestoga email -->
+                <a href="">vpatel0802@conestogac.on.ca</a>
+            </p>
+        </footer>
+    </div>
+</body>
+
+</html>
